@@ -1,0 +1,5 @@
+set terminal x11
+set data style dot
+set terminal jpeg
+set output "image.jpg"
+plot "outputDat.sil"
